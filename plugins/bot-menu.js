@@ -4,6 +4,8 @@ import { join } from 'path'
 import { xpRange } from '../lib/levelling.js'
 import { plugins } from '../lib/plugins.js'
 import moment from 'moment-timezone'
+let { MessageType } = (await import('@adiwajshing/baileys')).default
+
 let tags = {}
 const defaultMenu = {
   before: `
