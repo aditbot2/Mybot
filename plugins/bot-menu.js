@@ -124,7 +124,7 @@ conn.sendButton(m.chat,  `${wish()}﹗`, text.trim(), `${timeimg()}`,
 [
 ['OWNER', '.owner'],
 ['\ngw pedo ', '']
-])
+], fkon )
   } catch (e) {
     conn.reply(m.chat, 'Sorry, something is error in menu.js', m)
     throw e
